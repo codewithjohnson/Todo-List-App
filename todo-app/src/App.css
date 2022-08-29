@@ -158,14 +158,14 @@ input[type="text"] {
     "Lucida Sans", Arial, sans-serif;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.603);
-  color:black;
+  color: black;
   animation: AnimateText 8s linear infinite;
   display: inline-block;
 }
 
 @keyframes AnimateText {
   100% {
-    transform: translate(-100%,0);
+    transform: translate(-100%, 0);
   }
 }
 
@@ -184,4 +184,18 @@ input[type="text"] {
 .clear-btn:hover {
   background-color: red;
   color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .home {
+    width: 90%;
+  }
+
+  .clear-btn {
+    font-size: 0.8rem;
+  }
+
+  .unfinished {
+    font-size: 0.8rem;
+  }
 }
